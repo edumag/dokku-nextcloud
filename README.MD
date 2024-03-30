@@ -7,6 +7,9 @@
 3. Create `nextcloud` app
 4. Set `NEXTCLOUD_ADMIN_USER` and `NEXTCLOUD_ADMIN_PASSWORD` env variables
 5. Push to dokku
+6. sudo mkdir /var/lib/dokku/data/storage/nextcloud # In server.
+7. sudo chown dokku:dokku  /var/lib/dokku/data/storage/nextcloud/ # In server.
+
 
 In summary:
 
