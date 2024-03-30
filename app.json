@@ -1,7 +1,7 @@
 {
   "name": "nextcloud",
   "description": "Nextcloud server, a safe home for all your data",
-  "repository": "https://github.com/dionysio/dokku-nextcloud",
+  "repository": "https://github.com/edumag/dokku-nextcloud",
   "success_url": "/",
   "dokku": {
     "plugins": [
@@ -24,7 +24,6 @@
         "app": "/var/www/html",
         "phases": "deploy,run"
       }
-
     ]
   }
 }
